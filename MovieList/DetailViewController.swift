@@ -14,8 +14,19 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var movieYearLabel: UILabel!
     @IBOutlet weak var movieNameLabel: UILabel!
     
+    var movieName = String!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if movieName != nil {
+            movieImageView.image = UIImage(named: movieName)
+            movieNameLabel.text = movieName
+            movieNameLabel.numberOfLines = 0
+            
+            
+        }
 
     }
     
