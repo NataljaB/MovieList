@@ -104,6 +104,11 @@
                         <viewLayoutGuide key="safeArea" id="lgQ-2C-3LG"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xjf-JP-8Be"/>
+                    <connections>
+                        <outlet property="movieImageView" destination="yZo-Kx-QdJ" id="K8D-TA-2Pf"/>
+                        <outlet property="movieNameLabel" destination="GT2-QM-F9h" id="e60-GC-Dry"/>
+                        <outlet property="movieYearLabel" destination="fZo-ce-CYx" id="9Gt-4h-8Xb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bj2-Pm-3mP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
