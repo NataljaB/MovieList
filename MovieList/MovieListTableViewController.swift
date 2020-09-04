@@ -45,6 +45,7 @@ class MovieListTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieListCell", for: indexPath)
 
         cell.textLabel?.text = movieList[indexPath.row]
+        cell.detailTextLabel?.text = movieList[indexPath.row]
         cell.textLabel?.numberOfLines = 0
         cell.imageView?.image = UIImage(named: movieList[indexPath.row])
 
@@ -84,6 +85,12 @@ class MovieListTableViewController: UITableViewController {
 
     }
     */
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .none
+        
+    }
+    
+    
 
     /*
     // Override to support conditional rearranging of the table view.
