@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8CEFB0FF25020DC800E546AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFB0FE25020DC800E546AC /* AppDelegate.swift */; };
 		8CEFB10125020DC800E546AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFB10025020DC800E546AC /* SceneDelegate.swift */; };
-		8CEFB10325020DC800E546AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFB10225020DC800E546AC /* ViewController.swift */; };
 		8CEFB10625020DC800E546AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFB10425020DC800E546AC /* Main.storyboard */; };
 		8CEFB10825020DC900E546AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFB10725020DC900E546AC /* Assets.xcassets */; };
 		8CEFB10B25020DC900E546AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFB10925020DC900E546AC /* LaunchScreen.storyboard */; };
+		8CEFB1132502153300E546AC /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFB1122502153300E546AC /* MovieListTableViewController.swift */; };
+		8CEFB1152502169700E546AC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFB1142502169700E546AC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CEFB0FB25020DC800E546AC /* MovieList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEFB0FE25020DC800E546AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CEFB10025020DC800E546AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8CEFB10225020DC800E546AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CEFB10525020DC800E546AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CEFB10725020DC900E546AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEFB10A25020DC900E546AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CEFB10C25020DC900E546AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEFB1122502153300E546AC /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		8CEFB1142502169700E546AC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				8CEFB0FE25020DC800E546AC /* AppDelegate.swift */,
 				8CEFB10025020DC800E546AC /* SceneDelegate.swift */,
-				8CEFB10225020DC800E546AC /* ViewController.swift */,
 				8CEFB10425020DC800E546AC /* Main.storyboard */,
+				8CEFB1122502153300E546AC /* MovieListTableViewController.swift */,
+				8CEFB1142502169700E546AC /* DetailViewController.swift */,
 				8CEFB10725020DC900E546AC /* Assets.xcassets */,
 				8CEFB10925020DC900E546AC /* LaunchScreen.storyboard */,
 				8CEFB10C25020DC900E546AC /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEFB10325020DC800E546AC /* ViewController.swift in Sources */,
+				8CEFB1132502153300E546AC /* MovieListTableViewController.swift in Sources */,
 				8CEFB0FF25020DC800E546AC /* AppDelegate.swift in Sources */,
 				8CEFB10125020DC800E546AC /* SceneDelegate.swift in Sources */,
+				8CEFB1152502169700E546AC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
