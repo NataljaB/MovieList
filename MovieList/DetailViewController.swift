@@ -14,7 +14,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var movieYearLabel: UILabel!
     @IBOutlet weak var movieNameLabel: UILabel!
     
-    var movieName = String!
+    var movieName : String!
     
     
     override func viewDidLoad() {
